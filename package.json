@@ -1,0 +1,9 @@
+{
+  "name": "AdvancedCSS",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^2.10.1"
+  }
+}
