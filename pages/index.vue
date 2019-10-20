@@ -22,29 +22,29 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 15px;
-}
 
-.navigation {
-  display: inline-block;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
 
-  li {
-    list-style-type: none;
+  .navigation {
     display: inline-block;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+    }
+
   }
 
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 10px;
+  .button {
+
   }
+
 }
 
-.button {
-  a {
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 10px;
-  }
-}
+
 
 </style>

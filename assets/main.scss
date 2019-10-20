@@ -3,5 +3,12 @@
     padding: 0;
 }
 
+$color-primary: #55c57a;
+$color-primary-light:lighten(#55c57a, 30%);
+$color-primary-dark: darken(#55c57a, 30%);
+
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #333;
 
 @import "../node_modules/tachyons-sass/tachyons.scss";
