@@ -6,12 +6,13 @@ import {
   globalHandleError
 } from './utils'
 
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../assets/main.scss'
 
-import _6f6c098b from './layouts/default.vue'
+import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }
 
@@ -20,6 +21,14 @@ export default {
 
   render (h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
+
+    if (this.nuxt.err && NuxtError.layout) {
+      this.setLayout(
+        typeof NuxtError.layout === 'function'
+          ? NuxtError.layout(this.context)
+          : NuxtError.layout
+      )
+    }
 
     const layoutEl = h(this.layout || 'nuxt')
     const templateEl = h('div', {
