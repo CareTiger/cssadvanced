@@ -3,13 +3,11 @@
 
     <nav>
       <ul class="navigation">
-        <li><a href="">Home</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="">Contact us</a></li>
+        <li><nuxt-link to="/">HOME</nuxt-link></li>
+        <li><nuxt-link to="/natours">NATOURS</nuxt-link></li>
       </ul>
       <div class="button">
         <a href="btn-main">Sign Up</a>
-        <a href="btn-hot">Get a Quote</a>
       </div>
     </nav>
 
