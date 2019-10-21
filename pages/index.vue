@@ -27,10 +27,19 @@
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  position: relative;
+
+  .logo-box {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    .logo {
+      height: 40px;
+    }
+  }
+
+
 }
 
-.logo-box {
-  top: 60px;
-  left: 60px;
-}
 </style>
