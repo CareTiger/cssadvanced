@@ -7,7 +7,7 @@
         <li><nuxt-link to="/natours">NATOURS</nuxt-link></li>
       </ul>
       <div class="button">
-        <a href="btn-main">Sign Up</a>
+        <nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link>
       </div>
     </nav>
 
