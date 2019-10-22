@@ -19,11 +19,11 @@
 
 <style lang="scss" scoped>
 nav {
+  padding: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  border: 5px solid yellow;
+  align-self: center;
 
   a {
     text-decoration: none;
@@ -38,12 +38,10 @@ nav {
 
   .navigation {
     display: inline-block;
-    border: 1px solid green;
   }
 
   .button {
     display: inline-block;
-    border: 1px solid green;
   }
 
 }
