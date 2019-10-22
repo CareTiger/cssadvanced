@@ -1,24 +1,33 @@
 <template>
   <div class="natours">
     
-    <div class="logo-box">
-      <img src="/img/natours/logo-white.png" alt="logo" class="logo">
+    <div class="hero">
+      <div class="logo-box">
+        <img src="/img/natours/logo-white.png" alt="logo" class="logo">
+      </div>
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Outdoors</span>
+          <span class="heading-primary-sub">is where life happens</span>
+        </h1>
+        <div class="animated slideInLeft">
+          <a href="#" class="btn btn-white">Discover our tours</a>
+        </div>
+      </div>
     </div>
 
-    <div class="text-box">
-      <h1 class="heading-primary">
-        <span class="heading-primary-main">Outdoors</span>
-        <span class="heading-primary-sub">is where life happens</span>
-      </h1>
-      <a href="#" class="btn btn-white">Discover our tours</a>
+    <div class="translate">
+
     </div>
 
   </div>
 </template>
 
 <style lang="scss" scoped>
+@import "~assets/main.scss";
 
-.natours {
+.hero {
+
   margin: 25px;
   height: 75vh;
   background-image: linear-gradient(to right bottom, 
@@ -40,7 +49,33 @@
   }
 
   .text-box {
-    
+    border: 1px solid red;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .heading-primary {
+      color: white;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+      backface-visibility: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .btn-white {      
+      border: 1px solid white;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 100px;      
+    }
+
   }
 
 

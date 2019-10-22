@@ -18,6 +18,7 @@ module.exports = {
       { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Fredoka+One|Poppins&display=swap" },      
       { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" },    
       { rel: 'stylesheet', href: "https://fonts.googleapis.com/icon?family=Material+Icons" },    
+      { rel: 'stylesheet', href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" },    
     ]
   },
 
