@@ -7,6 +7,9 @@
         <li><nuxt-link to="/natours">NATOURS</nuxt-link></li>
         <li><nuxt-link to="/parallax">PARALLAX</nuxt-link></li>
         <li><nuxt-link to="/csseffects">CSS EFFECTS</nuxt-link></li>
+        <li><nuxt-link to="/outlinedtype">Outlined Type</nuxt-link></li>
+        <li><nuxt-link to="/shapes">Css shapes</nuxt-link></li>
+        <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>
       </ul>
       <ul class="button">
         <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
