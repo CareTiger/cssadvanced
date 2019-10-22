@@ -10,14 +10,10 @@
           <span class="heading-primary-main">Outdoors</span>
           <span class="heading-primary-sub">is where life happens</span>
         </h1>
-        <div class="animated slideInLeft">
+        <div class="animated heartBeat">
           <a href="#" class="btn btn-white">Discover our tours</a>
         </div>
       </div>
-    </div>
-
-    <div class="translate">
-
     </div>
 
   </div>
@@ -49,7 +45,6 @@
   }
 
   .text-box {
-    border: 1px solid red;
     position:absolute;
     top: 40%;
     left: 50%;
@@ -61,11 +56,22 @@
       text-transform: uppercase;
       margin-bottom: 50px;
       backface-visibility: hidden;
+
+      span:nth-child(1) {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      span:nth-child(2) {
+        font-size: 20px;
+      }
+
     }
 
     a {
       text-decoration: none;
       text-transform: uppercase;
+      border: 1px solid red;
     }
 
     .btn-white {      
