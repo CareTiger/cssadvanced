@@ -2,6 +2,7 @@ $color-primary: #55c57a;
 $color-primary-light:lighten(#55c57a, 30%);
 $color-primary-dark: darken(#55c57a, 30%);
 
+$grey: #3b3b3b;
 $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #333;
@@ -12,20 +13,24 @@ $color-black: #333;
 }
 
 html, body {
+    padding: 0;
+    margin: 0;
+    font-family:  'Poppins', sans-serif !important;
     font-size: 18px;
-    line-height: 30px;
-    color: $color-grey-dark;
+    line-height: 30px !important;
+    word-spacing: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    color: $grey;
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
-    color:  $color-grey-dark;
-}
-
-h1 {
-    font-size: 96px;
-}
-
+    font-family:  'Fredoka One', sans-serif !important;
+    color: $grey;
+  }
+  
 @media screen and (min-width: 768px) {
 
 }

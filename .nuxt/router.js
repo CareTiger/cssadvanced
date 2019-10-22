@@ -5,6 +5,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _11e8d3e4 = () => interopDefault(import('../pages/animate.vue' /* webpackChunkName: "pages/animate" */))
 const _5d845428 = () => interopDefault(import('../pages/csseffects.vue' /* webpackChunkName: "pages/csseffects" */))
+const _066ed772 = () => interopDefault(import('../pages/fonts.vue' /* webpackChunkName: "pages/fonts" */))
 const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpackChunkName: "pages/fullpage" */))
 const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
 const _f052fe6a = () => interopDefault(import('../pages/natours.vue' /* webpackChunkName: "pages/natours" */))
@@ -31,6 +32,10 @@ export const routerOptions = {
     path: "/csseffects",
     component: _5d845428,
     name: "csseffects"
+  }, {
+    path: "/fonts",
+    component: _066ed772,
+    name: "fonts"
   }, {
     path: "/fullpage",
     component: _482420aa,

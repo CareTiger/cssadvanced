@@ -10,6 +10,7 @@
         <li><nuxt-link to="/outlinedtype">Outlined Type</nuxt-link></li>
         <li><nuxt-link to="/shapes">Css shapes</nuxt-link></li>
         <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>
+        <li><nuxt-link to="/fonts">Fonts</nuxt-link></li>
       </ul>
       <ul class="button">
         <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
