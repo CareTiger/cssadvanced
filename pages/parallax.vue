@@ -1,17 +1,24 @@
 <template>
   <div>
 
-    <h4>parrallax</h4>
+    <div class="img-1"></div>
 
-    <div class="parallax"></div>
-
-    <div style="height:1000px;background-color:red;font-size:36px">
-    Scroll Up and Down this page to see the parallax scrolling effect.
-    This div is just here to enable scrolling.
-    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    <div class="content-1">
+      <p>
+        Scroll Up and Down this page to see the parallax scrolling effect.
+        This div is just here to enable scrolling.
+        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+      </p>
     </div>
 
-    <div class="parallax"></div>
+    <div class="img-2"></div>
+
+    <div class="content-1">
+      <p>
+        This is some more content. Please read this content as it is meant to be. 
+        very defensible, operating under that theory and read whats on the table.
+      </p>
+    </div>
 
   </div>
 </template>
@@ -26,14 +33,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.parallax {
-  /* The image used */
-  //background-image: url('~static/products/1.jpg');
 
-  /* Full height */
-  height: 100%; 
+.img-1 {
+  height:60vh; 
+  background-image: url(~static/img/natours/hero.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* Create the parallax scrolling effect */
+.content-1 {
+  height: 50vh;
+  border: 10px solid red;
+}
+
+.img-2 {
+  height:60vh; 
+  background-image: url(~static/img/natours/nat-5.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

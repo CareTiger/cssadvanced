@@ -3,7 +3,9 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _11e8d3e4 = () => interopDefault(import('../pages/animate.vue' /* webpackChunkName: "pages/animate" */))
 const _5d845428 = () => interopDefault(import('../pages/csseffects.vue' /* webpackChunkName: "pages/csseffects" */))
+const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
 const _f052fe6a = () => interopDefault(import('../pages/natours.vue' /* webpackChunkName: "pages/natours" */))
 const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
@@ -19,9 +21,17 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/animate",
+    component: _11e8d3e4,
+    name: "animate"
+  }, {
     path: "/csseffects",
     component: _5d845428,
     name: "csseffects"
+  }, {
+    path: "/illustrations",
+    component: _e4184e34,
+    name: "illustrations"
   }, {
     path: "/natours",
     component: _f052fe6a,
