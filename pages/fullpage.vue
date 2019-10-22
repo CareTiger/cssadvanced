@@ -10,6 +10,7 @@
 <script>
 // https://codepen.io/igstudio/pen/pbYOab/?html-preprocessor=pug
 //https://blog.logrocket.com/how-to-use-refs-to-access-your-application-dom-in-vue-js/
+
 var VueScrollTo = require('vue-scrollto');
 
 var options = {
