@@ -32,7 +32,6 @@ nav {
   align-self: center;
 
   a {
-    text-decoration: none;
     text-transform: uppercase;
     margin-right: 10px;
   }

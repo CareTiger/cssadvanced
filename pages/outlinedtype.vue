@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="outlined">
         <h3>Outlined type</h3>
     </div>
 </template>
@@ -7,6 +7,9 @@
 <style lang="scss" scoped>
 // https://css-tricks.com/adding-stroke-to-web-text/
 // https://wpshout.com/quick-guides/create-text-outline-css/
+.outlined {
+    padding: 3rem;
+}
 
 h3 {
     font-size: 96px;
