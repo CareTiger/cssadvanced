@@ -8,12 +8,16 @@ const _5d845428 = () => interopDefault(import('../pages/csseffects.vue' /* webpa
 const _066ed772 = () => interopDefault(import('../pages/fonts.vue' /* webpackChunkName: "pages/fonts" */))
 const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpackChunkName: "pages/fullpage" */))
 const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
+const _24f9207c = () => interopDefault(import('../pages/lines.vue' /* webpackChunkName: "pages/lines" */))
 const _f052fe6a = () => interopDefault(import('../pages/natours.vue' /* webpackChunkName: "pages/natours" */))
+const _43cf7a24 = () => interopDefault(import('../pages/Natours/index.vue' /* webpackChunkName: "pages/Natours/index" */))
+const _2b610e10 = () => interopDefault(import('../pages/Nexter/index.vue' /* webpackChunkName: "pages/Nexter/index" */))
 const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
 const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
 const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
 const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackChunkName: "pages/shapes" */))
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
+const _67f1e0d8 = () => interopDefault(import('../pages/Trillo/index.vue' /* webpackChunkName: "pages/Trillo/index" */))
 const _27642815 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -46,9 +50,21 @@ export const routerOptions = {
     component: _e4184e34,
     name: "illustrations"
   }, {
+    path: "/lines",
+    component: _24f9207c,
+    name: "lines"
+  }, {
     path: "/natours",
     component: _f052fe6a,
     name: "natours"
+  }, {
+    path: "/Natours",
+    component: _43cf7a24,
+    name: "Natours"
+  }, {
+    path: "/Nexter",
+    component: _2b610e10,
+    name: "Nexter"
   }, {
     path: "/outlinedtype",
     component: _2694e729,
@@ -69,6 +85,10 @@ export const routerOptions = {
     path: "/signup",
     component: _7cc78765,
     name: "signup"
+  }, {
+    path: "/Trillo",
+    component: _67f1e0d8,
+    name: "Trillo"
   }, {
     path: "/",
     component: _27642815,
