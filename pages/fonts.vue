@@ -45,7 +45,7 @@ h3 {
 
 h4 {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 1.40rem;
     margin-bottom: 1rem;
 }
 
