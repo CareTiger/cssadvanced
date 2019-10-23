@@ -1,5 +1,6 @@
 <template>
     <div class="fonts">
+
         <h1>Header 1</h1>
         <h2>Header 2</h2>
         <h3>Header 3</h3>
@@ -10,7 +11,13 @@
 </template>
 
 <style lang="scss">
+// fonts like Roslindale from Jen Simmons
+// https://github.com/jensimmons/labs.jensimmons.com/tree/gh-pages/fonts
+
 @import "~/assets/main.scss";
+
+
+
 .fonts {
     margin-left: 4rem;
 }
@@ -20,19 +27,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: lighter;
-    font-size: 96px;
+    font-size: 3rem;
     margin-bottom: 3rem;
 }
 
 h2 {
     font-weight: normal;
-    font-size: 60px;
+    font-size: 2.25rem;
     margin-bottom: 2rem;
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 48px;
+    font-weight: bolder;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -49,6 +56,8 @@ h5 {
 }
 
 h6 {
-
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
 </style>

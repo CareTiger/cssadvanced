@@ -11,7 +11,7 @@
         <li><nuxt-link to="/shapes">Css shapes</nuxt-link></li>
         <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>
         <li><nuxt-link to="/fonts">Fonts</nuxt-link></li>
-        <li><nuxt-link to="/divlines">SVG LINES</nuxt-link></li>
+        <li><nuxt-link to="/lines">SVG DIV connectors</nuxt-link></li>
       </ul>
       <ul class="button">
         <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
@@ -25,6 +25,8 @@
 
 
 <style lang="scss" scoped>
+// https://codepen.io/berky93/pen/vKmkWG
+
 nav {
   padding: 25px;
   display: flex;
@@ -51,7 +53,5 @@ nav {
   }
 
 }
-
-
 
 </style>
