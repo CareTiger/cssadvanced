@@ -10,6 +10,7 @@ const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpack
 const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
 const _f052fe6a = () => interopDefault(import('../pages/natours.vue' /* webpackChunkName: "pages/natours" */))
 const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
+const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
 const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
 const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackChunkName: "pages/shapes" */))
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
@@ -52,6 +53,10 @@ export const routerOptions = {
     path: "/outlinedtype",
     component: _2694e729,
     name: "outlinedtype"
+  }, {
+    path: "/overlap",
+    component: _95c47b6c,
+    name: "overlap"
   }, {
     path: "/parallax",
     component: _7ef6d324,
