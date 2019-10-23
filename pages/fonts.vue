@@ -27,25 +27,29 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: lighter;
-    font-size: 3rem;
+//    font-size: 3rem;
+    font-size: 96px;
     margin-bottom: 3rem;
 }
 
 h2 {
     font-weight: normal;
-    font-size: 2.25rem;
+//    font-size: 2.25rem;
+    font-size: 60px;
     margin-bottom: 2rem;
 }
 
 h3 {
     font-weight: bolder;
-    font-size: 1.5rem;
+//    font-size: 1.5rem;
+    font-size: 48px;
     margin-bottom: 1.5rem;
 }
 
 h4 {
-    font-weight: bold;
-    font-size: 1.40rem;
+    font-weight: normal;
+//    font-size: 1.40rem;
+    font-size: 34px;
     margin-bottom: 1rem;
 }
 
