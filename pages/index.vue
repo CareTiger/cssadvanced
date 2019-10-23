@@ -50,6 +50,13 @@
         <p>Why I like? Nice use of verticalility in text, using illustrations and real images to highlight products.</p>
       </section>
 
+      <section>
+        <h4>
+          <a href="https://zumi.gucci.com/">Gucci Zumi- Gucci crushes it again </a>
+        </h4>
+        <p>Why I like? Nice use of verticalility in text, using illustrations and real images to highlight products.</p>
+      </section>
+
     </article>
 
   </div>
