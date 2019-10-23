@@ -24,7 +24,7 @@ html, body {
 
     // Jost
     // https://indestructibletype.com/Jost
-    // font-family:  'Jost', sans-serif !important;
+    //font-family:  'Jost', sans-serif !important;
 
     // Agrandir
     // https://v-fonts.com/fonts/agrandir-variable
@@ -33,7 +33,22 @@ html, body {
 
     // Avenir Next Font
     // https://www.dafontfree.io/avenir-next-font/
-    font-family:  'Avenir Next', sans-serif !important;
+    // font-family:  'Avenir Next', sans-serif !important;
+
+    // Euclid Flex
+    // nice swiss typeface
+    // https://www.swisstypefaces.com/fonts/euclid/
+    // font-family:  'Euclid Flex', sans-serif !important;
+
+    // Type together - Portada and Protipo
+    // A nice foundry for fonts
+    // https://www.type-together.com/font-catalogue
+    // font-family:  'Portada', serif !important;
+
+    // Type together - Portada and Protipo
+    // A nice foundry for fonts
+    // https://www.type-together.com/protipo-font
+    font-family:  'Protipo', sans-serif !important;
 
     font-size: 18px;
     line-height: 30px !important;
@@ -41,6 +56,47 @@ html, body {
     box-sizing: border-box;
     background-color: white;
     color: $grey;
+}
+
+
+h1 {
+    font-weight: lighter;
+//    font-size: 3rem;
+    font-size: 96px !important;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-weight: normal;
+//    font-size: 2.25rem;
+    font-size: 60px !important;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: bolder;
+//    font-size: 1.5rem;
+    font-size: 48px !important;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-weight: normal;
+//    font-size: 1.40rem;
+    font-size: 34px;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0.7rem;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {

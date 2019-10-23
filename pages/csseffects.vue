@@ -2,8 +2,11 @@
   <div class="effects">
     
     <div class="buttonOverlay">
-      <nuxt-link to="#">HOVER ME</nuxt-link>
+      <a href="#">HOVER ME</a>
     </div>
+
+<h1>MAINTAIN</h1>
+
 
   </div>
 </template>
@@ -17,22 +20,19 @@ export default {
 
 <style lang="scss" scoped>
 .effects {
-  width: 300px;
+  width: 500px;
   padding: 2rem;
 }
 
 .buttonOverlay {
-  padding: 10px 25px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  cursor: pointer;
+    padding: 10px 25px;
+    position: relative;
+    color: #fff;
 
   a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;    
+    color: #fff;
   }
 
   &::before {
