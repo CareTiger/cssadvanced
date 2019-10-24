@@ -15,6 +15,8 @@ const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackCh
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
+const _2155aa9e = () => interopDefault(import('../pages/tachyons/flex.vue' /* webpackChunkName: "pages/tachyons/flex" */))
+const _3ccaf74c = () => interopDefault(import('../pages/tachyons/forms.vue' /* webpackChunkName: "pages/tachyons/forms" */))
 const _253d4bc3 = () => interopDefault(import('../pages/tachyons/glossary.vue' /* webpackChunkName: "pages/tachyons/glossary" */))
 const _08c0d419 = () => interopDefault(import('../pages/Udemy/csseffects.vue' /* webpackChunkName: "pages/Udemy/csseffects" */))
 const _5a3e0cbe = () => interopDefault(import('../pages/Udemy/Natours/index.vue' /* webpackChunkName: "pages/Udemy/Natours/index" */))
@@ -79,6 +81,14 @@ export const routerOptions = {
     path: "/Udemy",
     component: _597c41c8,
     name: "Udemy"
+  }, {
+    path: "/tachyons/flex",
+    component: _2155aa9e,
+    name: "tachyons-flex"
+  }, {
+    path: "/tachyons/forms",
+    component: _3ccaf74c,
+    name: "tachyons-forms"
   }, {
     path: "/tachyons/glossary",
     component: _253d4bc3,
