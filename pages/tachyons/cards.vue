@@ -1,5 +1,5 @@
 <template>
     <div>
-        flex
+        cards
     </div>
 </template>

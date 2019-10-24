@@ -4,7 +4,7 @@
             <li><nuxt-link to="tachyons/glossary" class="link blue hover-bg-light-gray">Glossary</nuxt-link></li>
             <li><nuxt-link to="tachyons/flex" class="link blue hover-bg-light-gray">Flex</nuxt-link></li>
             <li><nuxt-link to="tachyons/forms" class="link blue hover-bg-light-gray">Forms</nuxt-link></li>
-            <li><nuxt-link to="" class="link blue hover-bg-light-gray"></nuxt-link></li>
+            <li><nuxt-link to="tachyons/cards" class="link blue hover-bg-light-gray">Cards</nuxt-link></li>
             <li><nuxt-link to="" class="link blue hover-bg-light-gray"></nuxt-link></li>
             <li><nuxt-link to="" class="link blue hover-bg-light-gray"></nuxt-link></li>
         </ul>
