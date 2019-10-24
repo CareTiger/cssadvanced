@@ -11,6 +11,7 @@ const _24f9207c = () => interopDefault(import('../pages/lines.vue' /* webpackChu
 const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
 const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
 const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
+const _36b40a2f = () => interopDefault(import('../pages/raise.vue' /* webpackChunkName: "pages/raise" */))
 const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackChunkName: "pages/shapes" */))
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
@@ -66,6 +67,10 @@ export const routerOptions = {
     path: "/parallax",
     component: _7ef6d324,
     name: "parallax"
+  }, {
+    path: "/raise",
+    component: _36b40a2f,
+    name: "raise"
   }, {
     path: "/shapes",
     component: _70358382,

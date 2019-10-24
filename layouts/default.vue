@@ -11,6 +11,7 @@
         <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>
         <li><nuxt-link to="/fonts">Fonts</nuxt-link></li>
         <li><nuxt-link to="/lines">SVG DIV connectors</nuxt-link></li>
+        <li><nuxt-link to="/raise">Raise</nuxt-link></li>
       </ul>
       <ul class="button">
         <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
