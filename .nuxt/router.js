@@ -4,20 +4,22 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _11e8d3e4 = () => interopDefault(import('../pages/animate.vue' /* webpackChunkName: "pages/animate" */))
-const _5d845428 = () => interopDefault(import('../pages/csseffects.vue' /* webpackChunkName: "pages/csseffects" */))
 const _066ed772 = () => interopDefault(import('../pages/fonts.vue' /* webpackChunkName: "pages/fonts" */))
 const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpackChunkName: "pages/fullpage" */))
 const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
 const _24f9207c = () => interopDefault(import('../pages/lines.vue' /* webpackChunkName: "pages/lines" */))
 const _f052fe6a = () => interopDefault(import('../pages/natours.vue' /* webpackChunkName: "pages/natours" */))
-const _43cf7a24 = () => interopDefault(import('../pages/Natours/index.vue' /* webpackChunkName: "pages/Natours/index" */))
-const _2b610e10 = () => interopDefault(import('../pages/Nexter/index.vue' /* webpackChunkName: "pages/Nexter/index" */))
 const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
 const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
 const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
 const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackChunkName: "pages/shapes" */))
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
-const _67f1e0d8 = () => interopDefault(import('../pages/Trillo/index.vue' /* webpackChunkName: "pages/Trillo/index" */))
+const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
+const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
+const _08c0d419 = () => interopDefault(import('../pages/Udemy/csseffects.vue' /* webpackChunkName: "pages/Udemy/csseffects" */))
+const _5a3e0cbe = () => interopDefault(import('../pages/Udemy/Natours/index.vue' /* webpackChunkName: "pages/Udemy/Natours/index" */))
+const _e3c59606 = () => interopDefault(import('../pages/Udemy/Nexter/index.vue' /* webpackChunkName: "pages/Udemy/Nexter/index" */))
+const _2ec33681 = () => interopDefault(import('../pages/Udemy/Trillo/index.vue' /* webpackChunkName: "pages/Udemy/Trillo/index" */))
 const _27642815 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -33,10 +35,6 @@ export const routerOptions = {
     path: "/animate",
     component: _11e8d3e4,
     name: "animate"
-  }, {
-    path: "/csseffects",
-    component: _5d845428,
-    name: "csseffects"
   }, {
     path: "/fonts",
     component: _066ed772,
@@ -58,14 +56,6 @@ export const routerOptions = {
     component: _f052fe6a,
     name: "natours"
   }, {
-    path: "/Natours",
-    component: _43cf7a24,
-    name: "Natours"
-  }, {
-    path: "/Nexter",
-    component: _2b610e10,
-    name: "Nexter"
-  }, {
     path: "/outlinedtype",
     component: _2694e729,
     name: "outlinedtype"
@@ -86,9 +76,29 @@ export const routerOptions = {
     component: _7cc78765,
     name: "signup"
   }, {
-    path: "/Trillo",
-    component: _67f1e0d8,
-    name: "Trillo"
+    path: "/tachyons",
+    component: _448f177d,
+    name: "tachyons"
+  }, {
+    path: "/Udemy",
+    component: _597c41c8,
+    name: "Udemy"
+  }, {
+    path: "/Udemy/csseffects",
+    component: _08c0d419,
+    name: "Udemy-csseffects"
+  }, {
+    path: "/Udemy/Natours",
+    component: _5a3e0cbe,
+    name: "Udemy-Natours"
+  }, {
+    path: "/Udemy/Nexter",
+    component: _e3c59606,
+    name: "Udemy-Nexter"
+  }, {
+    path: "/Udemy/Trillo",
+    component: _2ec33681,
+    name: "Udemy-Trillo"
   }, {
     path: "/",
     component: _27642815,

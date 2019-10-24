@@ -7,6 +7,7 @@ $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #333;
 
+
 * {
     margin: 0;
     padding: 0;
@@ -24,12 +25,12 @@ html, body {
 
     // Jost
     // https://indestructibletype.com/Jost
-    //font-family:  'Jost', sans-serif !important;
+    // font-family:  'Jost', sans-serif !important;
 
     // Agrandir
     // https://v-fonts.com/fonts/agrandir-variable
     // A nice quirky sans-serif variable font
-    // font-family:  'Agrandir', sans-serif !important;
+    //font-family:  'Agrandir', sans-serif !important;
 
     // Avenir Next Font
     // https://www.dafontfree.io/avenir-next-font/
@@ -38,7 +39,7 @@ html, body {
     // Euclid Flex
     // nice swiss typeface
     // https://www.swisstypefaces.com/fonts/euclid/
-    // font-family:  'Euclid Flex', sans-serif !important;
+    font-family:  'Euclid Flex', sans-serif !important;
 
     // Type together - Portada and Protipo
     // A nice foundry for fonts
@@ -48,7 +49,7 @@ html, body {
     // Type together - Portada and Protipo
     // A nice foundry for fonts
     // https://www.type-together.com/protipo-font
-    font-family:  'Protipo', sans-serif !important;
+    // font-family:  'Protipo', sans-serif !important;
 
     font-size: 18px;
     line-height: 30px !important;
@@ -70,7 +71,7 @@ h2 {
     font-weight: normal;
 //    font-size: 2.25rem;
     font-size: 60px !important;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 h3 {

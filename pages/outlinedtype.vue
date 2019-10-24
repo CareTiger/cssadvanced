@@ -1,6 +1,6 @@
 <template>
     <div class="outlined">
-        <h3>Outlined type</h3>
+        <h1>Outlined type</h1>
     </div>
 </template>
 
@@ -11,8 +11,9 @@
     padding: 3rem;
 }
 
-h3 {
+h1 {
     font-size: 96px;
+    font-weight: 800;    
     color: white;
     text-shadow:
     -1px -1px 0 #000,  
