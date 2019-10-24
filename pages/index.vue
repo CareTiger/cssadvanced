@@ -1,6 +1,19 @@
 <template>
   <div class="home">
 
+    <article>
+      <h3>Experiments - tactical</h3>
+      <section>
+        <ul>
+          <li><nuxt-link to="/parallax">parallax</nuxt-link></li>
+          <li><nuxt-link to="/outlinedtype">Outlined Type</nuxt-link></li>
+          <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>
+          <li><nuxt-link to="/fonts">Fonts</nuxt-link></li>
+          <li><nuxt-link to="/lines">svg div connectors</nuxt-link></li>
+          <li><nuxt-link to="/raise">Raise on hover</nuxt-link></li>
+        </ul>
+      </section>
+    </article>
     
     <article>
       <h3>2019 Design Trends</h3>

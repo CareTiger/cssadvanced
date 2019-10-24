@@ -19,10 +19,13 @@ section {
     background-image: url(~static/img/natours/hero.jpg);
     background-position: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative;    
 
     h1 {
-        font-size: 96px;
+        border: 1px solid red;
+        display: inline-block;
+        width: 100%;
+        font-size: 48px;
         font-weight: 800;    
         color: white;
         text-shadow:
@@ -34,7 +37,6 @@ section {
         position: absolute;
         top: 50%;
         left:50%;
-        transform: translate(-50%, -50%);
     }
 
 }
