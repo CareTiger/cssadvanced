@@ -1,6 +1,6 @@
 <template>
-    <div class="tachyons ma4">
-        <ul class="list p10 outline pa2">
+    <div class="tachyons ma4 light-gray bg-black measure">
+        <ul class="list p10 ba b--light-gray pa2">
             <li><nuxt-link to="tachyons/glossary" class="link blue hover-bg-light-gray">Glossary</nuxt-link></li>
             <li><nuxt-link to="tachyons/flex" class="link blue hover-bg-light-gray">Flex</nuxt-link></li>
             <li><nuxt-link to="tachyons/forms" class="link blue hover-bg-light-gray">Forms</nuxt-link></li>
