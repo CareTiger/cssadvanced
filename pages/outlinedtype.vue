@@ -23,10 +23,11 @@ section {
 
     h1 {
         border: 1px solid red;
+        text-align: center;
         display: inline-block;
         width: 100%;
         font-size: 48px;
-        font-weight: 800;    
+        font-weight: 800;
         color: white;
         text-shadow:
         -1px -1px 0 #000,  
@@ -37,6 +38,7 @@ section {
         position: absolute;
         top: 50%;
         left:50%;
+        transform: translate(-50%, -50%);
     }
 
 }
