@@ -1,6 +1,9 @@
 <template>
     <div class="outlined">
-        <h1>Outlined type</h1>
+        <section>
+            <h1>Outlined type</h1>
+            <img src="" alt="">
+        </section>
     </div>
 </template>
 
@@ -11,15 +14,31 @@
     padding: 3rem;
 }
 
-h1 {
-    font-size: 96px;
-    font-weight: 800;    
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;    
+section {
+    height: 90vh;
+    background-image: url(~static/img/natours/hero.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    h1 {
+        font-size: 96px;
+        font-weight: 800;    
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
+
+
 
 </style>
