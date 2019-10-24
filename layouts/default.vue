@@ -5,6 +5,7 @@
       <ul class="navigation">
         <li><nuxt-link to="/">HOME</nuxt-link></li>
         <li><nuxt-link to="/udemy">UDEMY</nuxt-link></li>
+        <li><nuxt-link to="/tachyons">tachyons</nuxt-link></li>
         <li><nuxt-link to="/parallax">PARALLAX</nuxt-link></li>
         <li><nuxt-link to="/outlinedtype">Outlined Type</nuxt-link></li>
         <li><nuxt-link to="/fullpage">Full Page</nuxt-link></li>

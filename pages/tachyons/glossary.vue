@@ -1,0 +1,64 @@
+<template>
+    <div>
+        
+        <div id="glossary" class="pa3 pa5-ns">
+            <h4 class="f6 fw6">Glossary</h4>
+            <dl class="f6 lh-title mv2">
+                <dt class="dib b">W:</dt>
+                <dd class="dib m10 gray">Wins</dd>
+            </dl>
+            <dl class="f6 lh-title mv2">
+                <dt class="dib b">L:</dt>
+                <dd class="dib m10 gray">Losses</dd>
+            </dl>
+            <dl class="f6 lh-title mv2">
+                <dt class="dib b">PCT:</dt>
+                <dd class="dib m10 gray">Winning Percentages</dd>
+            </dl>
+            <dl class="f6 lh-title mv2">
+                <dt class="dib b">GB:</dt>
+                <dd class="dib m10 gray">Games Back</dd>
+            </dl>
+        </div>
+
+<div class="pa3 pa5-ns">
+  <h4 class="f6 fw6">Glossary</h4>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">W:</dt>
+    <dd class="dib ml0 gray">Wins</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">L:</dt>
+    <dd class="dib ml0 gray">Losses</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">PCT:</dt>
+    <dd class="dib ml0 gray">Winning Percentages</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">GB:</dt>
+    <dd class="dib ml0 gray">Games Back</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">Home:</dt>
+    <dd class="dib ml0 gray">Home Record</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">Road:</dt>
+    <dd class="dib ml0 gray">Road Record</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">Div:</dt>
+    <dd class="dib ml0 gray">Division Record</dd>
+  </dl>
+</div>
+
+
+    </div>
+</template>
+
+<style lang="scss" scoped>
+#glossary {
+   
+}
+</style>
