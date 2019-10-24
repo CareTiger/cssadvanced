@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <div id="glossary" class="pa3 pa5-ns">
+        <div id="glossary" class="pa3 pa5-ns outline ma4">
             <h4 class="f6 fw6">Glossary</h4>
             <dl class="f6 lh-title mv2">
                 <dt class="dib b">W:</dt>
