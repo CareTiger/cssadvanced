@@ -3,27 +3,27 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _11e8d3e4 = () => interopDefault(import('../pages/animate.vue' /* webpackChunkName: "pages/animate" */))
-const _066ed772 = () => interopDefault(import('../pages/fonts.vue' /* webpackChunkName: "pages/fonts" */))
-const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpackChunkName: "pages/fullpage" */))
-const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
 const _72dade19 = () => interopDefault(import('../pages/jen/index.vue' /* webpackChunkName: "pages/jen/index" */))
-const _24f9207c = () => interopDefault(import('../pages/lines.vue' /* webpackChunkName: "pages/lines" */))
-const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
-const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
-const _7ef6d324 = () => interopDefault(import('../pages/parallax.vue' /* webpackChunkName: "pages/parallax" */))
-const _36b40a2f = () => interopDefault(import('../pages/raise.vue' /* webpackChunkName: "pages/raise" */))
-const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackChunkName: "pages/shapes" */))
-const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
+const _8ede3d1a = () => interopDefault(import('../pages/tactical/index.vue' /* webpackChunkName: "pages/tactical/index" */))
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
-const _40e7f429 = () => interopDefault(import('../pages/jen/clip2.vue' /* webpackChunkName: "pages/jen/clip2" */))
+const _4427c059 = () => interopDefault(import('../pages/jen/clip.vue' /* webpackChunkName: "pages/jen/clip" */))
 const _2e776d54 = () => interopDefault(import('../pages/jen/multicolumn.vue' /* webpackChunkName: "pages/jen/multicolumn" */))
 const _0481f164 = () => interopDefault(import('../pages/jen/overlap.vue' /* webpackChunkName: "pages/jen/overlap" */))
 const _6721258e = () => interopDefault(import('../pages/tachyons/cards.vue' /* webpackChunkName: "pages/tachyons/cards" */))
 const _2155aa9e = () => interopDefault(import('../pages/tachyons/flex.vue' /* webpackChunkName: "pages/tachyons/flex" */))
 const _3ccaf74c = () => interopDefault(import('../pages/tachyons/forms.vue' /* webpackChunkName: "pages/tachyons/forms" */))
 const _253d4bc3 = () => interopDefault(import('../pages/tachyons/glossary.vue' /* webpackChunkName: "pages/tachyons/glossary" */))
+const _0accadc2 = () => interopDefault(import('../pages/tactical/animate.vue' /* webpackChunkName: "pages/tactical/animate" */))
+const _e41564b6 = () => interopDefault(import('../pages/tactical/fonts.vue' /* webpackChunkName: "pages/tactical/fonts" */))
+const _00f55ce6 = () => interopDefault(import('../pages/tactical/fullpage.vue' /* webpackChunkName: "pages/tactical/fullpage" */))
+const _18785444 = () => interopDefault(import('../pages/tactical/illustrations.vue' /* webpackChunkName: "pages/tactical/illustrations" */))
+const _7eb02920 = () => interopDefault(import('../pages/tactical/lines.vue' /* webpackChunkName: "pages/tactical/lines" */))
+const _0a04880b = () => interopDefault(import('../pages/tactical/outlinedtype.vue' /* webpackChunkName: "pages/tactical/outlinedtype" */))
+const _bae395f4 = () => interopDefault(import('../pages/tactical/parallax.vue' /* webpackChunkName: "pages/tactical/parallax" */))
+const _703e78e6 = () => interopDefault(import('../pages/tactical/raise.vue' /* webpackChunkName: "pages/tactical/raise" */))
+const _5c4fb0a1 = () => interopDefault(import('../pages/tactical/shapes.vue' /* webpackChunkName: "pages/tactical/shapes" */))
+const _1131f9c7 = () => interopDefault(import('../pages/tactical/signup.vue' /* webpackChunkName: "pages/tactical/signup" */))
 const _08c0d419 = () => interopDefault(import('../pages/Udemy/csseffects.vue' /* webpackChunkName: "pages/Udemy/csseffects" */))
 const _5a3e0cbe = () => interopDefault(import('../pages/Udemy/Natours/index.vue' /* webpackChunkName: "pages/Udemy/Natours/index" */))
 const _e3c59606 = () => interopDefault(import('../pages/Udemy/Nexter/index.vue' /* webpackChunkName: "pages/Udemy/Nexter/index" */))
@@ -40,65 +40,25 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/animate",
-    component: _11e8d3e4,
-    name: "animate"
-  }, {
-    path: "/fonts",
-    component: _066ed772,
-    name: "fonts"
-  }, {
-    path: "/fullpage",
-    component: _482420aa,
-    name: "fullpage"
-  }, {
-    path: "/illustrations",
-    component: _e4184e34,
-    name: "illustrations"
-  }, {
     path: "/jen",
     component: _72dade19,
     name: "jen"
-  }, {
-    path: "/lines",
-    component: _24f9207c,
-    name: "lines"
-  }, {
-    path: "/outlinedtype",
-    component: _2694e729,
-    name: "outlinedtype"
-  }, {
-    path: "/overlap",
-    component: _95c47b6c,
-    name: "overlap"
-  }, {
-    path: "/parallax",
-    component: _7ef6d324,
-    name: "parallax"
-  }, {
-    path: "/raise",
-    component: _36b40a2f,
-    name: "raise"
-  }, {
-    path: "/shapes",
-    component: _70358382,
-    name: "shapes"
-  }, {
-    path: "/signup",
-    component: _7cc78765,
-    name: "signup"
   }, {
     path: "/tachyons",
     component: _448f177d,
     name: "tachyons"
   }, {
+    path: "/tactical",
+    component: _8ede3d1a,
+    name: "tactical"
+  }, {
     path: "/Udemy",
     component: _597c41c8,
     name: "Udemy"
   }, {
-    path: "/jen/clip2",
-    component: _40e7f429,
-    name: "jen-clip2"
+    path: "/jen/clip",
+    component: _4427c059,
+    name: "jen-clip"
   }, {
     path: "/jen/multicolumn",
     component: _2e776d54,
@@ -123,6 +83,46 @@ export const routerOptions = {
     path: "/tachyons/glossary",
     component: _253d4bc3,
     name: "tachyons-glossary"
+  }, {
+    path: "/tactical/animate",
+    component: _0accadc2,
+    name: "tactical-animate"
+  }, {
+    path: "/tactical/fonts",
+    component: _e41564b6,
+    name: "tactical-fonts"
+  }, {
+    path: "/tactical/fullpage",
+    component: _00f55ce6,
+    name: "tactical-fullpage"
+  }, {
+    path: "/tactical/illustrations",
+    component: _18785444,
+    name: "tactical-illustrations"
+  }, {
+    path: "/tactical/lines",
+    component: _7eb02920,
+    name: "tactical-lines"
+  }, {
+    path: "/tactical/outlinedtype",
+    component: _0a04880b,
+    name: "tactical-outlinedtype"
+  }, {
+    path: "/tactical/parallax",
+    component: _bae395f4,
+    name: "tactical-parallax"
+  }, {
+    path: "/tactical/raise",
+    component: _703e78e6,
+    name: "tactical-raise"
+  }, {
+    path: "/tactical/shapes",
+    component: _5c4fb0a1,
+    name: "tactical-shapes"
+  }, {
+    path: "/tactical/signup",
+    component: _1131f9c7,
+    name: "tactical-signup"
   }, {
     path: "/Udemy/csseffects",
     component: _08c0d419,
