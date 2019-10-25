@@ -15,7 +15,7 @@
       </section>
 
       <section>
-        <h5>Smashing Magazin</h5>
+        <h5>Smashing Magazine</h5>
         <a href="https://www.smashingmagazine.com/2019/03/web-design-trends-betheme/">Design trends</a>
       </section>
 
@@ -26,7 +26,7 @@
     </article>
 
     <article>
-      <h3>Noteworthy designs layouts - ILLUSTRATIONS</h3>
+      <h3>Noteworthy designs layouts - </h3>
 
       <section>
         <h4>

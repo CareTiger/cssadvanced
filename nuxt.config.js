@@ -30,7 +30,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    '~/assets/main.scss'
+    '~/assets/fonts/fonts.scss',
+    '~/assets/main.scss',
   ],
 
 
