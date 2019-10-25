@@ -51,13 +51,13 @@ html, body {
     // https://www.type-together.com/protipo-font
     // font-family:  'Protipo', sans-serif !important;
 
-    @font-face {
-        font-family:'Euclid Flex';
-        src: url(/fonts/EuclidFlex/EuclidFlex-Medium-WebXL.woff2) format("woff2");
+/*     @font-face {
+        font-family:'Jost';
+        src: url(/fonts/Jost/JostVariableFont.ttf) format("ttf");
         font-display: swap;
-    }
+    } */
 
-    font-family: 'Euclid Flex', 'Helvetica Neue', sans-serif;
+    font-family: 'Jost', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     line-height: 30px !important;
     word-spacing: 3px;
@@ -118,5 +118,6 @@ h6 {
 @media screen and (min-width: 1280px) {
 
 }
-
+@import "../static/fonts/Jost/JostVariableFont.ttf";
+//@import "../static/fonts/EuclidFlex/EuclidFlex-Medium-WebXL.woff2";
 @import "../node_modules/tachyons-sass/tachyons.scss";
