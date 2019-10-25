@@ -7,6 +7,7 @@ const _11e8d3e4 = () => interopDefault(import('../pages/animate.vue' /* webpackC
 const _066ed772 = () => interopDefault(import('../pages/fonts.vue' /* webpackChunkName: "pages/fonts" */))
 const _482420aa = () => interopDefault(import('../pages/fullpage.vue' /* webpackChunkName: "pages/fullpage" */))
 const _e4184e34 = () => interopDefault(import('../pages/illustrations.vue' /* webpackChunkName: "pages/illustrations" */))
+const _72dade19 = () => interopDefault(import('../pages/jen/index.vue' /* webpackChunkName: "pages/jen/index" */))
 const _24f9207c = () => interopDefault(import('../pages/lines.vue' /* webpackChunkName: "pages/lines" */))
 const _2694e729 = () => interopDefault(import('../pages/outlinedtype.vue' /* webpackChunkName: "pages/outlinedtype" */))
 const _95c47b6c = () => interopDefault(import('../pages/overlap.vue' /* webpackChunkName: "pages/overlap" */))
@@ -16,6 +17,7 @@ const _70358382 = () => interopDefault(import('../pages/shapes.vue' /* webpackCh
 const _7cc78765 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
+const _0481f164 = () => interopDefault(import('../pages/jen/overlap.vue' /* webpackChunkName: "pages/jen/overlap" */))
 const _6721258e = () => interopDefault(import('../pages/tachyons/cards.vue' /* webpackChunkName: "pages/tachyons/cards" */))
 const _2155aa9e = () => interopDefault(import('../pages/tachyons/flex.vue' /* webpackChunkName: "pages/tachyons/flex" */))
 const _3ccaf74c = () => interopDefault(import('../pages/tachyons/forms.vue' /* webpackChunkName: "pages/tachyons/forms" */))
@@ -52,6 +54,10 @@ export const routerOptions = {
     component: _e4184e34,
     name: "illustrations"
   }, {
+    path: "/jen",
+    component: _72dade19,
+    name: "jen"
+  }, {
     path: "/lines",
     component: _24f9207c,
     name: "lines"
@@ -87,6 +93,10 @@ export const routerOptions = {
     path: "/Udemy",
     component: _597c41c8,
     name: "Udemy"
+  }, {
+    path: "/jen/overlap",
+    component: _0481f164,
+    name: "jen-overlap"
   }, {
     path: "/tachyons/cards",
     component: _6721258e,
