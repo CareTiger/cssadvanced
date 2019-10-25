@@ -57,7 +57,7 @@ html, body {
         font-display: swap;
     }
 
-    //font-family: 'Euclid Flex' sans-serif;
+    font-family: 'Euclid Flex', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     line-height: 30px !important;
     word-spacing: 3px;
@@ -68,41 +68,41 @@ html, body {
 
 
 h1 {
-    font-weight: lighter;
+    font-weight: 300;
 //    font-size: 3rem;
     font-size: 96px !important;
     margin-bottom: 3rem;
 }
 
 h2 {
-    font-weight: normal;
+    font-weight: 400;
 //    font-size: 2.25rem;
     font-size: 60px !important;
     margin-bottom: 2.5rem;
 }
 
 h3 {
-    font-weight: bolder;
+    font-weight: 500;
 //    font-size: 1.5rem;
     font-size: 48px !important;
     margin-bottom: 1.5rem;
 }
 
 h4 {
-    font-weight: normal;
+    font-weight: 400;
 //    font-size: 1.40rem;
     font-size: 34px;
     margin-bottom: 1rem;
 }
 
 h5 {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 24px;
     margin-bottom: 0.7rem;
 }
 
 h6 {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     margin-bottom: 1rem;
 }
