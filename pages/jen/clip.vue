@@ -27,5 +27,6 @@ img {
     height: 60vh;
     object-fit: cover;
     object-position: 50% 10%;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);;
 }
 </style>
