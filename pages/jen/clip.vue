@@ -15,7 +15,9 @@
 </template>
 
 <style lang="scss" scoped>
-
+.shell {
+  border: 1px solid green;
+}
 .poligon {
   display: inline-block;
   position: relative;
