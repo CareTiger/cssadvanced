@@ -51,7 +51,8 @@
 
       <section>
         <h4>
-          <a href="https://zumi.gucci.com/">Gucci Zumi- Gucci crushes it again </a>
+          <a href="https://zumi.gucci.com/">Gucci Zumi</a>
+          <a href="http://springsummer.gucci.com/">Gucci Hallucination</a>
         </h4>
         <p>Gucci is Gucci. Insanely awesome illustrations and transitions.</p>
       </section>

@@ -1,5 +1,5 @@
 <template>
-    <div class="pixel debug">
+    <div class="pixel">
         <h1 class="">Pixel the Kitten</h1>
         <h2>Like playing with grid</h2>                
         <figure>
@@ -8,12 +8,12 @@
             <img src="/img/jen/people/20070461390_e350b158e3_b.jpg" alt="">
             <hr>
             <img src="/img/jen/people/20258466845_9d192564f0_b.jpg" alt="">
-            <hr>
-            <p class="">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?" 
-            </p>
         </figure>
 
+<div class="poligon">
+  <img src="http://lorempixel.com/g/600/400/">
+</div>
+        
     </div>
 </template>
 
@@ -27,6 +27,7 @@ img {
     height: 60vh;
     object-fit: cover;
     object-position: 50% 10%;
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);;
+    clip-path: polygon(12% 16%, 21% 12%, 32% 10%, 48% 10%, 48% 10%, 64% 12%, 67% 13%, 69% 14%, 74% 21%, 79% 24%, 83% 29%, 84% 29%, 86% 31%, 91% 37%, 94% 43%, 95% 52%, 95% 55%, 94% 65%, 92% 74%, 90% 78%, 87% 83%, 100% 96%, 90% 89%, 90% 89%, 91% 94%, 83% 97%, 79% 97%, 75% 100%, 65% 99%, 61% 99%, 55% 99%, 43% 99%, 36% 98%, 28% 91%, 28% 91%, 33% 88%, 23% 80%, 22% 83%, 12% 81%, 10% 79%, 10% 73%, 5% 62%, 4% 61%, 3% 54%, 3% 52%, 3% 47%, 3% 42%, 3% 40%, 5% 31%, 4% 29%, 6% 23%, 6% 22%, 9% 20%);
+    border: 10px red;
 }
 </style>
