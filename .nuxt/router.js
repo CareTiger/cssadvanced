@@ -9,6 +9,8 @@ const _8ede3d1a = () => interopDefault(import('../pages/tactical/index.vue' /* w
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
 const _4427c059 = () => interopDefault(import('../pages/jen/clip.vue' /* webpackChunkName: "pages/jen/clip" */))
 const _40e7f429 = () => interopDefault(import('../pages/jen/clip2.vue' /* webpackChunkName: "pages/jen/clip2" */))
+const _40f60baa = () => interopDefault(import('../pages/jen/clip3.vue' /* webpackChunkName: "pages/jen/clip3" */))
+const _4104232b = () => interopDefault(import('../pages/jen/clip4.vue' /* webpackChunkName: "pages/jen/clip4" */))
 const _2e776d54 = () => interopDefault(import('../pages/jen/multicolumn.vue' /* webpackChunkName: "pages/jen/multicolumn" */))
 const _0481f164 = () => interopDefault(import('../pages/jen/overlap.vue' /* webpackChunkName: "pages/jen/overlap" */))
 const _6721258e = () => interopDefault(import('../pages/tachyons/cards.vue' /* webpackChunkName: "pages/tachyons/cards" */))
@@ -64,6 +66,14 @@ export const routerOptions = {
     path: "/jen/clip2",
     component: _40e7f429,
     name: "jen-clip2"
+  }, {
+    path: "/jen/clip3",
+    component: _40f60baa,
+    name: "jen-clip3"
+  }, {
+    path: "/jen/clip4",
+    component: _4104232b,
+    name: "jen-clip4"
   }, {
     path: "/jen/multicolumn",
     component: _2e776d54,
