@@ -6,7 +6,7 @@
             <li><nuxt-link to="jen/clip">clip path - with complex polygons and shadow</nuxt-link></li>
             <li><nuxt-link to="jen/clip2">  clip path -  Vertical - Jen's original design</nuxt-link></li>
             <li><nuxt-link to="jen/clip3">  clip path -  non-rectangular divs - using clip path</nuxt-link></li>
-            <li><nuxt-link to="jen/clip4">  clip path -  non-rectangular divs - using transform skew</nuxt-link></li>
+            <li><nuxt-link to="jen/clip4">  clip path -  non-rectangular divs - using transform skew (Stripe)</nuxt-link></li>
             <li><nuxt-link to="jen/overlap">Overlap</nuxt-link></li>
             <li><nuxt-link to="jen/multicolumn">multi-column card layout</nuxt-link></li>
         </ul>
