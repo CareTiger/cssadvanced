@@ -1,7 +1,8 @@
 <template>
     <div class="pixel">
         <h1 class="">Pixel the Kitten</h1>
-        <h2>Like playing with grid</h2>                
+        <h2>Like playing with grid</h2>
+        <a href="https://bennettfeely.com/clippy/">Tool for editing clip path</a>             
         <figure>
             <img src="/img/jen/people/19635836264_927fbee8b5_b.jpg" alt="">
             <hr>

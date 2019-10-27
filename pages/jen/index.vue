@@ -3,7 +3,8 @@
         <h2>Jen's lab</h2>
         <b></b>
         <ul>
-            <li><nuxt-link to="jen/clip">clip path</nuxt-link></li>
+            <li><nuxt-link to="jen/clip">clip path - with complex polygons and shadow</nuxt-link></li>
+            <li><nuxt-link to="jen/clip2">clip path - Jen's original design</nuxt-link></li>
             <li><nuxt-link to="jen/overlap">Overlap</nuxt-link></li>
             <li><nuxt-link to="jen/multicolumn">multi-column card layout</nuxt-link></li>
         </ul>
