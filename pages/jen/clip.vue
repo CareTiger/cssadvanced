@@ -18,6 +18,7 @@
 .shell {
   border: 1px solid green;
 }
+
 .poligon {
   display: inline-block;
   position: relative;
