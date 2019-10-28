@@ -52,7 +52,7 @@ html, body {
     // font-family:  'Protipo', sans-serif !important;
 
     font-family: 'Jost', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px !important;
     word-spacing: 3px;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ h1 {
     font-weight: 300;
 //    font-size: 3rem;
 //    font-size: 96px !important;
-    font-size: 5vw !important;
+    font-size: 5.9vw !important;
     margin-bottom: 3rem;
 }
 
@@ -106,14 +106,30 @@ h6 {
 
 @media screen and (min-width: 768px) {
 
+    h1 {}
+    h2 {}
+    h3 {}
+    h4 {}
+    h5 {}
+    h6 {}
 }
 
 @media screen  and (min-width: 992px) {
-  
+    h1 {}
+    h2 {}
+    h3 {}
+    h4 {}
+    h5 {}
+    h6 {}  
 }
 
 @media screen and (min-width: 1280px) {
-
+    h1 {}
+    h2 {}
+    h3 {}
+    h4 {}
+    h5 {}
+    h6 {}
 }
 
 
