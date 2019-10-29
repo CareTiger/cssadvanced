@@ -14,6 +14,15 @@
 // fonts like Roslindale from Jen Simmons
 // https://github.com/jensimmons/labs.jensimmons.com/tree/gh-pages/fonts
 
+//variable fotns
+// https://css-tricks.com/snippets/css/fluid-typography/
+
+//calculator
+// https://websemantics.uk/tools/responsive-font-calculator/
+
+// https://betterwebtype.com/articles/2019/05/14/the-state-of-fluid-web-typography/
+
+
 @import "~/assets/main.scss";
 
 

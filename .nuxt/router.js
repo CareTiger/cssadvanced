@@ -7,6 +7,7 @@ const _72dade19 = () => interopDefault(import('../pages/jen/index.vue' /* webpac
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
 const _8ede3d1a = () => interopDefault(import('../pages/tactical/index.vue' /* webpackChunkName: "pages/tactical/index" */))
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
+const _75fd8274 = () => interopDefault(import('../pages/jen/bauhaus.vue' /* webpackChunkName: "pages/jen/bauhaus" */))
 const _4427c059 = () => interopDefault(import('../pages/jen/clip.vue' /* webpackChunkName: "pages/jen/clip" */))
 const _40e7f429 = () => interopDefault(import('../pages/jen/clip2.vue' /* webpackChunkName: "pages/jen/clip2" */))
 const _40f60baa = () => interopDefault(import('../pages/jen/clip3.vue' /* webpackChunkName: "pages/jen/clip3" */))
@@ -59,6 +60,10 @@ export const routerOptions = {
     path: "/Udemy",
     component: _597c41c8,
     name: "Udemy"
+  }, {
+    path: "/jen/bauhaus",
+    component: _75fd8274,
+    name: "jen-bauhaus"
   }, {
     path: "/jen/clip",
     component: _4427c059,

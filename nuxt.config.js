@@ -42,8 +42,10 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {      
-      config.module.rules.push ({
+    extend(config, ctx) {
+      
+      
+/*       config.module.rules.push ({
         test:  /\.(ttf|otf|eot|woff|woff2)$/,
         use: {
           loader: "file-loader",
@@ -51,7 +53,9 @@ module.exports = {
             name: "fonts/[name].[ext]"
           }
         },
-      })
+      }) */
+
+
     },
     
     

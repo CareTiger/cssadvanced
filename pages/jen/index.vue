@@ -9,6 +9,7 @@
             <li><nuxt-link to="jen/clip4">  clip path -  non-rectangular divs - using transform skew (Stripe)</nuxt-link></li>
             <li><nuxt-link to="jen/overlap">Overlap</nuxt-link></li>
             <li><nuxt-link to="jen/multicolumn">multi-column card layout</nuxt-link></li>
+            <li><nuxt-link to="jen/mondrian">mondrian</nuxt-link></li>
         </ul>
     </div>
 </template>
