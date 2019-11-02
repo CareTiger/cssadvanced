@@ -1,17 +1,15 @@
 <template>
-    <div>
+    <div class="w-100">
 
-    <nav>
-      <ul class="navigation">
-        <li><nuxt-link to="/">HOME</nuxt-link></li>
-        <li><nuxt-link to="/experiments">Experiments</nuxt-link></li>
-      </ul>
-      <ul class="button">
-        <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
-      </ul>
-    </nav>
+      <nav class="ba b--blue bw3">
+        <ul class="navigation mw7 center">
+          <li><nuxt-link to="/">HOME</nuxt-link></li>
+          <li><nuxt-link to="/experiments">Experiments</nuxt-link></li>
+        </ul>
+      </nav>
 
-        <nuxt></nuxt>
+
+      <nuxt></nuxt>
 
     </div>
 </template>

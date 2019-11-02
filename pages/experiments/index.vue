@@ -1,5 +1,5 @@
 <template>
-    <div class="mw7 center">
+    <div class="mw7 center tc">
 
         <section class="mt5">
             <h3>Jen's lab</h3>
