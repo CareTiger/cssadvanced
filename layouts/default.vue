@@ -4,10 +4,7 @@
     <nav>
       <ul class="navigation">
         <li><nuxt-link to="/">HOME</nuxt-link></li>
-        <li><nuxt-link to="/udemy">UDEMY</nuxt-link></li>
-        <li><nuxt-link to="/tachyons">tachyons</nuxt-link></li>
-        <li><nuxt-link to="/jen">Jen</nuxt-link></li>
-        <li><nuxt-link to="/tactical">Tactical</nuxt-link></li>
+        <li><nuxt-link to="/experiments">Experiments</nuxt-link></li>
       </ul>
       <ul class="button">
         <li><nuxt-link to="/signup" class="btn-main">Sign Up</nuxt-link></li>        
