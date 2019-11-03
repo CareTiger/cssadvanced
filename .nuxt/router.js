@@ -17,6 +17,7 @@ const _2e776d54 = () => interopDefault(import('../pages/jen/multicolumn.vue' /* 
 const _0481f164 = () => interopDefault(import('../pages/jen/overlap.vue' /* webpackChunkName: "pages/jen/overlap" */))
 const _6721258e = () => interopDefault(import('../pages/tachyons/cards.vue' /* webpackChunkName: "pages/tachyons/cards" */))
 const _2155aa9e = () => interopDefault(import('../pages/tachyons/flex.vue' /* webpackChunkName: "pages/tachyons/flex" */))
+const _7817d000 = () => interopDefault(import('../pages/tachyons/footer.vue' /* webpackChunkName: "pages/tachyons/footer" */))
 const _3ccaf74c = () => interopDefault(import('../pages/tachyons/forms.vue' /* webpackChunkName: "pages/tachyons/forms" */))
 const _253d4bc3 = () => interopDefault(import('../pages/tachyons/glossary.vue' /* webpackChunkName: "pages/tachyons/glossary" */))
 const _2cc638c0 = () => interopDefault(import('../pages/tachyons/lists.vue' /* webpackChunkName: "pages/tachyons/lists" */))
@@ -101,6 +102,10 @@ export const routerOptions = {
     path: "/tachyons/flex",
     component: _2155aa9e,
     name: "tachyons-flex"
+  }, {
+    path: "/tachyons/footer",
+    component: _7817d000,
+    name: "tachyons-footer"
   }, {
     path: "/tachyons/forms",
     component: _3ccaf74c,

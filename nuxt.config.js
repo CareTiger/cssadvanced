@@ -27,6 +27,14 @@ module.exports = {
   loading: { color: '#fff' },
 
   /*
+  ** Global Plugins
+  */
+  plugins: [
+    '~/plugins/vue-social-sharing.js'
+  ],
+  
+
+  /*
   ** Global CSS
   */
   css: [
