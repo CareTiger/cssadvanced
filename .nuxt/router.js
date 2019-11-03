@@ -19,7 +19,6 @@ const _6721258e = () => interopDefault(import('../pages/tachyons/cards.vue' /* w
 const _2155aa9e = () => interopDefault(import('../pages/tachyons/flex.vue' /* webpackChunkName: "pages/tachyons/flex" */))
 const _7817d000 = () => interopDefault(import('../pages/tachyons/footer.vue' /* webpackChunkName: "pages/tachyons/footer" */))
 const _3ccaf74c = () => interopDefault(import('../pages/tachyons/forms.vue' /* webpackChunkName: "pages/tachyons/forms" */))
-const _253d4bc3 = () => interopDefault(import('../pages/tachyons/glossary.vue' /* webpackChunkName: "pages/tachyons/glossary" */))
 const _2cc638c0 = () => interopDefault(import('../pages/tachyons/lists.vue' /* webpackChunkName: "pages/tachyons/lists" */))
 const _0accadc2 = () => interopDefault(import('../pages/tactical/animate.vue' /* webpackChunkName: "pages/tactical/animate" */))
 const _e41564b6 = () => interopDefault(import('../pages/tactical/fonts.vue' /* webpackChunkName: "pages/tactical/fonts" */))
@@ -110,10 +109,6 @@ export const routerOptions = {
     path: "/tachyons/forms",
     component: _3ccaf74c,
     name: "tachyons-forms"
-  }, {
-    path: "/tachyons/glossary",
-    component: _253d4bc3,
-    name: "tachyons-glossary"
   }, {
     path: "/tachyons/lists",
     component: _2cc638c0,
