@@ -1,7 +1,12 @@
 <template>
-    <div class="mw7 center ba">
+    <div class="mw7 center">
         
-        <fieldset id="favorites" class="ma4 bn flex flex-column">
+
+        <hr class="bt b--light-blue mv4">
+
+        <h5>Checkbox</h5>
+
+        <fieldset id="favorites" class="bn flex flex-column">
 
             <legend>
                 <b>Favorite Movies</b>
