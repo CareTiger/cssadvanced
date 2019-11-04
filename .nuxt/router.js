@@ -8,6 +8,7 @@ const _72dade19 = () => interopDefault(import('../pages/jen/index.vue' /* webpac
 const _448f177d = () => interopDefault(import('../pages/tachyons/index.vue' /* webpackChunkName: "pages/tachyons/index" */))
 const _8ede3d1a = () => interopDefault(import('../pages/tactical/index.vue' /* webpackChunkName: "pages/tactical/index" */))
 const _597c41c8 = () => interopDefault(import('../pages/Udemy/index.vue' /* webpackChunkName: "pages/Udemy/index" */))
+const _ae079066 = () => interopDefault(import('../pages/w3c/index.vue' /* webpackChunkName: "pages/w3c/index" */))
 const _75fd8274 = () => interopDefault(import('../pages/jen/bauhaus.vue' /* webpackChunkName: "pages/jen/bauhaus" */))
 const _4427c059 = () => interopDefault(import('../pages/jen/clip.vue' /* webpackChunkName: "pages/jen/clip" */))
 const _40e7f429 = () => interopDefault(import('../pages/jen/clip2.vue' /* webpackChunkName: "pages/jen/clip2" */))
@@ -34,6 +35,7 @@ const _08c0d419 = () => interopDefault(import('../pages/Udemy/csseffects.vue' /*
 const _5a3e0cbe = () => interopDefault(import('../pages/Udemy/Natours/index.vue' /* webpackChunkName: "pages/Udemy/Natours/index" */))
 const _e3c59606 = () => interopDefault(import('../pages/Udemy/Nexter/index.vue' /* webpackChunkName: "pages/Udemy/Nexter/index" */))
 const _2ec33681 = () => interopDefault(import('../pages/Udemy/Trillo/index.vue' /* webpackChunkName: "pages/Udemy/Trillo/index" */))
+const _4607a4aa = () => interopDefault(import('../pages/w3c/forms.vue' /* webpackChunkName: "pages/w3c/forms" */))
 const _27642815 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -65,6 +67,10 @@ export const routerOptions = {
     path: "/Udemy",
     component: _597c41c8,
     name: "Udemy"
+  }, {
+    path: "/w3c",
+    component: _ae079066,
+    name: "w3c"
   }, {
     path: "/jen/bauhaus",
     component: _75fd8274,
@@ -169,6 +175,10 @@ export const routerOptions = {
     path: "/Udemy/Trillo",
     component: _2ec33681,
     name: "Udemy-Trillo"
+  }, {
+    path: "/w3c/forms",
+    component: _4607a4aa,
+    name: "w3c-forms"
   }, {
     path: "/",
     component: _27642815,
